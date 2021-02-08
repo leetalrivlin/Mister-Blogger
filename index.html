@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="blogin-logo">Blogin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="menu-screen-shadow" onclick="toggleMenu()"></div>
+    <div class="full-screen-shadow" onclick="closeModal()"></div>
+
+    <header class="full-w-container main-header">
+      <div class="main-container flex space-between align-center">
+        <p class="blogin-logo">Blogin</p>
+        <nav>
+          <ul class="main-nav flex clean-list">
+            <li>
+              <a class="nav-item flex justify-center align-center" href="# "
+                >Journal</a
+              >
+            </li>
+            <li>
+              <a class="nav-item flex justify-center align-center" href="# "
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="nav-item flex justify-center align-center" href="# "
+                >Work</a
+              >
+            </li>
+            <li>
+              <a class="nav-item flex justify-center align-center" href="# "
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger-btn clean-button" onclick="toggleMenu(this)">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main class="main-container main-bg-color main-border">
+      <article class="card-container flex space-between">
+        <img src="img/img_1.png" class="card-img" />
+        <div class="card-txt flex flex-column">
+          <h2 class="card-header">
+            Duis aute irure dolor in henderit in voluptate.
+          </h2>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur...
+          </p>
+          <button class="card-button clean-button" onclick="openModal()">
+            Continue Reading
+          </button>
+        </div>
+      </article>
+
+      <article class="card-container flex space-between">
+        <img src="img/img_2.png" class="card-img" />
+        <div class="card-txt flex flex-column space-between">
+          <h2 class="card-header">
+            Duis aute irure dolor in henderit in voluptate.
+          </h2>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur...
+          </p>
+          <button class="card-button clean-button" onclick="openModal()">
+            Continue Reading
+          </button>
+        </div>
+      </article>
+
+      <article class="card-container flex space-between">
+        <img src="img/img_3.png" class="card-img" />
+        <div class="card-txt flex flex-column space-between">
+          <h2 class="card-header">
+            Duis aute irure dolor in henderit in voluptate.
+          </h2>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur...
+          </p>
+          <button class="card-button clean-button" onclick="openModal()">
+            Continue Reading
+          </button>
+        </div>
+      </article>
+
+      <div
+        class="pageinaton main-container main-bg-color main-top-border flex space-between"
+      >
+        <a href="#"><span class="arrow-margin">&larr;</span>PREVIUS</a>
+        <a href="#"><span class="arrow-margin">NEXT</span>&rarr;</a>
+      </div>
+    </main>
+
+    <aside>
+      <div class="modal">
+        <form class="flex flex-column space-between align-center">
+          <h2 class="card-header">
+            Join us to get access to the latest stories!
+          </h2>
+          <div class="input-section flex space-between">
+            <input type="email" placeholder="example@gmail.com" />
+            <button class="submit-btn" type="submit">Submit</button>
+          </div>
+          <button class="btn-close" onclick="closeModal()">
+            Close
+          </button>
+        </form>
+      </div>
+    </aside>
+
+    <footer
+      class="full-w-container footer-container flex flex-column justify-center align-center"
+    >
+      <p class="blogin-logo">Blogin</p>
+      <p class="footer-sentence">
+        <span class="lato-bold letter-spacing-sm"
+          >© 2014 Blogin.com - All Rights Reserved</span
+        >
+        <span class="letter-spacing-normal">
+          - Find more free Templates at
+        </span>
+        <span class="lato-bold letter-spacing-sm">Pixelhint.com</span>
+      </p>
+      <ul class="social-icons flex space-between">
+        <li class="hover-bg-fb flex justify-center align-center">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa fa-facebook-f"></i
+          ></a>
+        </li>
+        <li class="hover-bg-tw flex justify-center align-center">
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </li>
+        <li class="hover-bg-be flex justify-center align-center">
+          <a href="https://www.behance.net/" target="_blank"
+            ><i class="fa fa-behance"></i
+          ></a>
+        </li>
+        <li class="hover-bg-drbl flex justify-center align-center">
+          <a href="https://dribbble.com/" target="_blank"
+            ><i class="fa fa-dribbble"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
